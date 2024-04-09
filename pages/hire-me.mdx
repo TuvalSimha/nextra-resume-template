@@ -1,0 +1,52 @@
+import { ShowResume } from '../components/resume'
+import { ContactCards } from '../components/contact-cards'
+import {
+  FaTwitter,
+  FaGithub,
+  FaLinkedin,
+  FaFacebook,
+  FaRss,
+} from "react-icons/fa"
+import { SiGmail } from "react-icons/si"
+
+# Hire Me
+
+## Resume
+<ShowResume/>
+
+## Contact
+
+  <ContactCards
+    items={[
+      {
+        icon: <FaTwitter />,
+        title: "Twitter",
+        link: "https://twitter.com/SimhaTuval",
+      },
+      {
+        icon: <SiGmail />,
+        title: "Email",
+        link: "mailto:tuval.simha@gmail.com",
+      },
+      {
+        icon: <FaGithub />,
+        title: "GitHub",
+        link: "https://github.com/TuvalSimha",
+      },
+      {
+        icon: <FaLinkedin />,
+        title: "LinkedIn",
+        link: "https://www.linkedin.com/in/tuvalsimha/",
+      },
+      {
+        icon: <FaFacebook />,
+        title: "Facebook",
+        link: "https://www.facebook.com/TuvalSimha",
+      },
+      {
+        icon: <FaRss />,
+        title: "Subscribe to RSS",
+        link: "/feed.xml",
+      },
+    ]}
+  />
