@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+/* Path: Hover on the Languages component - Stop the animation */
+@layer utilities {
+    .paused {
+        animation-play-state: paused;
+    }
+}
